@@ -13,4 +13,7 @@ For resolving code labels, we need the to provide the following five arguments t
 - <True/False> The value is True if performing range-based mutations and False if performing the value-based mutations
 - <output csv file> The name of the csv file containing the values of the resolved labels
 
+```
 data/code-samples data/author1labels/codelabels.json data/author2labels/codelabels.json True resolvedlabels.csv
+```
+
