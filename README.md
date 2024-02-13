@@ -1,9 +1,13 @@
 # Code-Clone-Causal-Interpretation
 Companion website for research paper with all scripts, code, data, and results available for reproducibility.
 
-Data folder contains the original code pairs and mutated code pairs for each mutation type
-Code folder contains code for resoving code labels (IntellijIDEA Java project), and creating mutated code (Python notebook)
+**Data** folder contains the original code pairs, mutated code pairs for each mutation type, and author code and clone labels json files
 
+**Code** folder contains code for resoving code labels (IntellijIDEA Java project), and creating mutated code (Jupyter notebook)
+
+**CodeAndCloneAnnotationTool** folder contains the VisualStudioCode plugin to label code as *clones* and *non-clones* and code segments as "core similarities", "non-core similarities", "core differences", and "non-core differences". Please refer to detailed RADME file inside the folder for setup and usage instructions.
+
+**Results** folder contains the Excel files containing the causal analysis measurements 
 
 For resolving code labels, we need the to provide the following five arguments to the CodeLabelsResolverCmd file:
 
@@ -16,4 +20,7 @@ For resolving code labels, we need the to provide the following five arguments t
 ```
 data/code-samples data/author1labels/codelabels.json data/author2labels/codelabels.json True resolvedlabels.csv
 ```
+
+
+
 
