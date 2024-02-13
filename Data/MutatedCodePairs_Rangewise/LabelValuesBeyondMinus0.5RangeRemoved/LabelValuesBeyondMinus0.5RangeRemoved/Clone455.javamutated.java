@@ -1,0 +1,40 @@
+public class Clone455 {
+/*
+* Semantic clone benchmark
+*  Source code are extracted from Stack Overflow
+*  Stack overflow Question #:25922372
+*  Stack Overflow answer #:25925208
+*  And Stack Overflow answer#:25922612
+*/
+public static void main (String [] args) throws InterruptedException {
+final AtomicInteger outputCount = new AtomicInteger (0);
+ExecutorService threadPool = Executors.newFixedThreadPool (THREADS);
+(
+){
+{(
+{
+}
+{
+(
+){
+{
+{
+}
+}
+}
+}}
+)
+}
+threadPool.shutdownNow ();
+}
+
+public static void main (String [] args) throws InterruptedException {
+AtomicInteger counter = new AtomicInteger ();
+ExecutorService pool = Executors.newFixedThreadPool (4);
+(
+){
+}
+pool.shutdown ();
+}
+
+}

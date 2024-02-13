@@ -1,0 +1,31 @@
+public class Clone264 {
+/*
+* Semantic clone benchmark
+*  Source code are extracted from Stack Overflow
+*  Stack overflow Question #:19459197
+*  Stack Overflow answer #:20782126
+*  And Stack Overflow answer#:49430674
+*/
+public int solution (int X, int [] A) {
+int size = A.length;
+int [] check = new int [X];
+int cmp = 0;
+(
+){
+{
+{
+}
+}
+{
+}
+}
+}
+
+public int solution (int X, int [] A) {
+Set < Integer > leaves = new HashSet < > ();
+(
+){
+}
+}
+
+}

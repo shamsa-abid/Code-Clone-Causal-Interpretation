@@ -1,0 +1,36 @@
+public class Clone574 {
+/*
+* Semantic clone benchmark
+*  Source code are extracted from Stack Overflow
+*  Stack overflow Question #:46667342
+*  Stack Overflow answer #:46667343
+*  And Stack Overflow answer#:46669187
+*/
+public static String replaceHostInUrl (String url, String newHost) {
+if (url == null || newHost == null) {
+return url;
+}
+try {
+boolean hostHasPort = newHost.indexOf (":") != - 1;
+if (hostHasPort) {
+URL hostURL = new URL ("http://" + newHost);
+newHost = hostURL.getHost ();
+newPort = hostURL.getPort ();
+} else {
+newPort = - 1;
+}
+boolean isHttps = originalURL.getProtocol ().equals ("https");
+boolean useDefaultPort = (newPort == 443 && isHttps) || (newPort == 80 && ! isHttps);
+newPort = useDefaultPort ? - 1 : newPort;
+} catch (MalformedURLException e) {
+throw new RuntimeException ("Couldnt replace host in url, originalUrl=" + url + ", newHost=" + newHost);
+}
+}
+
+public static String replaceHostInUrl (String originalURL, String newAuthority) throws URISyntaxException, MalformedURLException {
+if (port > 0 && port == uri.toURL ().getDefaultPort ()) {
+uri = new URI (uri.getScheme (), uri.getUserInfo (), uri.getHost (), - 1, uri.getPath (), uri.getQuery (), uri.getFragment ());
+}
+}
+
+}
