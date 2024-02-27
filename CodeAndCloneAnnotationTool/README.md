@@ -4,6 +4,8 @@
 
 Assign clone class labels to files containing code pairs. Highlight and label code chunks in code files to identify core similarities, non-core similarities and dissimilarities.
 
+Find the detailed code and clone labeling guideleine [here](https://github.com/shamsa-abid/Code-Clone-Causal-Interpretation/blob/main/CodeAndCloneAnnotationTool/Code%20Pair%20Labeling%20Guidelines.pdf).
+
 ![](https://github.com/shamsa-abid/CodeCloneAnnotation/blob/main/vscode-code-clone-annotation/vscode-code-annotation/demo/Code%20Annotation.png)
 
 The "Code and Clone Annotation" can be found in the Activity pane.
