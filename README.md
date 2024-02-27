@@ -21,7 +21,8 @@ For resolving code labels, we need the to provide the following five arguments t
 data/code-samples data/author1labels/codelabels.json data/author2labels/codelabels.json True resolvedlabels.csv
 ```
 
-[embed]https://github.com/shamsa-abid/Code-Clone-Causal-Interpretation/blob/main/Results/Value-Based%20Mutation%20Results/SupplementaryResults.pdf [/embed] 
+## Supplementary results from second mutation strategy
+https://github.com/shamsa-abid/Code-Clone-Causal-Interpretation/blob/main/Results/Value-Based%20Mutation%20Results/SupplementaryResults.pdf
 
 
 
