@@ -1,5 +1,9 @@
-# Code-Clone-Causal-Interpretation
+# Measuring Model Alignment for Code Clone Detection Using Causal Interpretation
+## AI vs Human Reasoning in Semantic Code Clones
+
 Companion website for research paper with all scripts, code, data, and results available for reproducibility.
+
+![Methodology for Comparing Human Intuition with Model Intuition for Semantic Code Clone Detection](https://github.com/shamsa-abid/Code-Clone-Causal-Interpretation/blob/main/Figures/MethodologyFigure2.jpg?raw=true)
 
 **Data** folder contains the original code pairs, mutated code pairs for each mutation type, and author code and clone labels json files
 
