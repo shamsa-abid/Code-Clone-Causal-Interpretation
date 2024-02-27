@@ -5,7 +5,7 @@ Companion website for research paper with all scripts, code, data, and results a
 
 **Code** folder contains code for resoving code labels (IntellijIDEA Java project), and creating mutated code (Jupyter notebook)
 
-**CodeAndCloneAnnotationTool** folder contains the VisualStudioCode plugin to label code as *clones* and *non-clones* and code segments as "core similarities", "non-core similarities", "core differences", and "non-core differences". Please refer to detailed RADME file inside the folder for setup and usage instructions.
+**[CodeAndCloneAnnotationTool](CodeAndCloneAnnotationTool)** folder contains the VisualStudioCode plugin to label code as *clones* and *non-clones* and code segments as "core similarities", "non-core similarities", "core differences", and "non-core differences". Please refer to detailed RADME file inside the folder for setup and usage instructions.
 
 **Results** folder contains the Excel files containing the causal analysis measurements 
 
