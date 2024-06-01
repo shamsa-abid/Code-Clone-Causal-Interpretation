@@ -27,12 +27,8 @@ The "Code and Clone Annotation" can be found in the Activity pane.
 - Generate json output of code labels using 'summary' button of code annotation view 
 - Generate json and csv output of clone labels using 'summary' button of clone annotation view 
 
-# Installing
-
-You can install the latest version of the extension via the Visual Studio Marketplace [here](https://marketplace.visualstudio.com/items?itemName=shamsa.code-clone-annotation).
-
-## Using a VSIX file
-Download the [VSIX file](https://github.com/shamsa-abid/CodeCloneAnnotation/blob/main/vscode-code-clone-annotation/vscode-code-annotation/code-annotation-0.0.5-dev.vsix) and follow the steps on your VSCode:
+# Installing Using a VSIX file
+Download the [VSIX file](https://github.com/shamsa-abid/Code-Clone-Causal-Interpretation/blob/main/CodeAndCloneAnnotationTool/code-annotation-0.0.10-dev.vsix) and follow the steps on your VSCode:
 
 1. Go to the "Extensions" pane
 2. Click on the ... on the top right of the "Extensions" pane
