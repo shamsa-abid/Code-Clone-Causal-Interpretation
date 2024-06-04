@@ -28,6 +28,7 @@ The "Code and Clone Annotation" can be found in the Activity pane.
 - Generate json and csv output of clone labels using 'summary' button of clone annotation view 
 
 # Installing Using a VSIX file
+To install this plugin, the version of Visual Studio Code should be at least 1.47.0 or greater. 
 Download the [VSIX file](https://github.com/shamsa-abid/Code-Clone-Causal-Interpretation/blob/main/CodeAndCloneAnnotationTool/code-annotation-0.0.10-dev.vsix) and follow the steps on your VSCode:
 
 1. Go to the "Extensions" pane
@@ -61,3 +62,8 @@ To reuse the existing annotations and deploy the existing annotation database in
 1. Suppose we want to view the author 1 and author 2's annotations for codes in code-samples, after installing Code Annotation, open "Extension Settings" of Code Annotation and change the FilePath into the absolute path of folder "author1labels" and "author2labels" in your machine.
 2. Select a clone file in folder "code-samples" and go to Code Annotation Bar, click refresh buttons beside Code Annotation View and Clone Annotation View then you are able to see the labels. 
 3. Wait a while if you cannot see the labels and refresh again. It may take a few seconds to load the annotation database into VS code.
+
+# Unintsall extension
+
+To uninstall an extension, select the Manage gear button at the right of an extension entry and then choose Uninstall from the dropdown menu. This will uninstall the extension and prompt you to restart the extension host (Restart Extensions). Details [here] (https://code.visualstudio.com/docs/editor/extension-marketplace#_uninstall-an-extension).
+
