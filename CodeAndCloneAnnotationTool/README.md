@@ -67,3 +67,6 @@ To reuse the existing annotations and deploy the existing annotation database in
 
 To uninstall an extension, select the Manage gear button at the right of an extension entry and then choose Uninstall from the dropdown menu. This will uninstall the extension and prompt you to restart the extension host (Restart Extensions). Details [here] (https://code.visualstudio.com/docs/editor/extension-marketplace#_uninstall-an-extension).
 
+## Code and Clone Annotation Tool as an extension to the base Code Annotation tool
+This repository contains modified and new source code produced using Code Annotation tool (https://github.com/thamara/vscode-code-annotation) as the baseline. 
+
